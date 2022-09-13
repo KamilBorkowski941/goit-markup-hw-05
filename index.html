@@ -85,35 +85,9 @@
               EFFECTIVE SOLUTIONS<br />
               FOR YOUR BUSINES
             </h1>
-            <button
-              data-modal-target="#modal"
-              type="button"
-              class="button-type-order"
-              data-modal-open
-            >
+            <button type="button" class="button-type-order" data-modal-open>
               Order
             </button>
-            <div class="modal" id="modal">
-              <div class="modal-header">
-                <div class="title">Popup Modal</div>
-                <button data-close-button class="close-button">&times;</button>
-              </div>
-              <div class="modal-body">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Laborum totam exercitationem assumenda minus nisi. Corrupti
-                laboriosam, pariatur vitae iure quis repudiandae placeat optio
-                consequuntur culpa tempora nemo vel saepe dicta perspiciatis
-                quam impedit voluptatibus molestias aliquid dolorum tempore
-                nihil commodi necessitatibus rem! Eligendi tempora ut, adipisci
-                nesciunt animi sed nihil asperiores unde aliquam similique
-                corporis reprehenderit fuga, laborum sapiente omnis, magnam nisi
-                totam consequatur voluptate? Eaque fuga explicabo in minus
-                perspiciatis doloremque nihil minima assumenda. Voluptatibus
-                tenetur odit sapiente sit ut. Sunt expedita fuga voluptas quo
-                exercitationem illum?
-              </div>
-            </div>
-            <div id="overlay"></div>
           </div>
         </section>
         <section class="section-about-us container">
@@ -634,6 +608,27 @@
         </section>
       </footer>
       <!--informacje bazowe na temat firmy- tak zwany footer-->
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <div class="modal-header">
+            <div class="title">Popup Modal</div>
+            <button class="close-button" data-modal-close>&times;</button>
+          </div>
+          <div class="modal-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            totam exercitationem assumenda minus nisi. Corrupti laboriosam,
+            pariatur vitae iure quis repudiandae placeat optio consequuntur
+            culpa tempora nemo vel saepe dicta perspiciatis quam impedit
+            voluptatibus molestias aliquid dolorum tempore nihil commodi
+            necessitatibus rem! Eligendi tempora ut, adipisci nesciunt animi sed
+            nihil asperiores unde aliquam similique corporis reprehenderit fuga,
+            laborum sapiente omnis, magnam nisi totam consequatur voluptate?
+            Eaque fuga explicabo in minus perspiciatis doloremque nihil minima
+            assumenda. Voluptatibus tenetur odit sapiente sit ut. Sunt expedita
+            fuga voluptas quo exercitationem illum?
+          </div>
+        </div>
+      </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
